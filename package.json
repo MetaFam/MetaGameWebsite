@@ -1,17 +1,27 @@
 {
-  "name": "gatsby-starter-blog-theme",
+  "name": "metagame",
   "private": true,
   "version": "0.0.1",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
   "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@mdx-js/react": "^1.5.1",
+    "@theme-ui/presets": "^0.2.44",
     "gatsby": "^2.18.4",
-    "gatsby-theme-blog": "^1.2.3",
+    "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-theme-ui": "^0.2.43",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "theme-ui": "^0.2.49"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
   }
 }

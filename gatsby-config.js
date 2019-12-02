@@ -1,24 +1,22 @@
 module.exports = {
   plugins: [
-    {
-      resolve: `gatsby-theme-blog`,
-      options: {},
-    },
+    'gatsby-plugin-theme-ui',
+    'gatsby-plugin-react-helmet',
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
-    description: `My site description...`,
+    title: `MetaGame`,
+    author: `MetaFam`,
+    description: `A Massive Online Coordination Game.`,
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
+        url: `https://twitter.com/metafam`,
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/MetaFam`,
       },
     ],
   },
-}
+};

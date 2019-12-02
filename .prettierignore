@@ -1,0 +1,14 @@
+*.min.js
+**/node_modules/**
+
+# built sites
+public
+
+# cache-dirs
+**/.cache
+
+# coverage
+coverage
+
+# forestry files
+.forestry/**/*
