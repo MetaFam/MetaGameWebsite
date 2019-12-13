@@ -1,11 +1,6 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="MetaGame" src="https://i.imgur.com/w8ZvFnq.png" width="80" />
-  </a>
+<img alt="MetaGame" src="https://i.imgur.com/3LUIEvS.png" width="70%" />
 </p>
-<h1 align="center">
-  MetaGame
-</h1>
 
 MetaGame is a Massive Online Coordination Game. An open-source framework for autonomous humans and decentralized organizations, to coordinate in creation and exchange of value with the least friction and most fun possible.
 
