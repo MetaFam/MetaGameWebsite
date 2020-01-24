@@ -17,7 +17,7 @@ const Background = ({ children }) => {
       }
     }
   `);
-  const imageData = data.icon.childImageSharp.fluid;
+  const imageData = data.icon && data.icon.childImageSharp && data.icon.childImageSharp.fluid;
   
   return(
     <BackgroundImage

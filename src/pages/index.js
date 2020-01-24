@@ -33,7 +33,7 @@ const IndexPage = () => (
       }}
     >
       {"MetaGame is the virtual Silicon Valley of the Web3 universe. " +
-      "It is an attempt to gamify positive-sum value creation and make the Web3 ecosystem easier to navigate for newcomers and veterans alike."
+      "It is an attempt to gamify positive-sum value creation and make the Ethereum ecosystem easier to navigate for newcomers and veterans alike."
       }
     </Styled.p>
     <div
@@ -44,20 +44,19 @@ const IndexPage = () => (
         width: ['100%', 'auto']
       }}
     >
-      <Button
-        text="PLAY"
-        href="https://discordapp.com/invite/Hf54gd8"
-        target="_blank"
-      />
       <Link
         to={'/learn'}
       >
         <Button
           text="LEARN"
-          color="secondary"
         />
       </Link>
-      
+      <Button
+        text="PLAY"
+        href="https://discordapp.com/invite/Hf54gd8"
+        target="_blank"
+        color="secondary"
+      />
     </div>
   </>
 );
