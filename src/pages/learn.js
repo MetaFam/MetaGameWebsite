@@ -50,6 +50,11 @@ const IndexPage = () => (
     >
       V. The Web of Opportunity
     </TextLink>
+    <TextLink
+      href={"https://metagame.substack.com/p/how-to-become-a-founder-of-metagame"}
+    >
+      VI. How To Become a Founder
+    </TextLink>
     <div
       sx={{
         mt: [4, 5],
