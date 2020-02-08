@@ -28,20 +28,20 @@ const IndexPage = () => (
     <TextLink
       href={"https://metagame.substack.com/p/wtf-is-metagame"}
     >
-      I. WTF is MetaGame
+        I. In Search of Commons that Scale
     </TextLink>
     <TextLink
-      href={"https://metagame.substack.com/p/the-coming-of-metagame"}
+      href={"https://metagame.substack.com/p/narrative-1-a-decentralized-factory"}   
     >
       II. The Coming of MetaGame
     </TextLink>
     <TextLink
       href={"https://metagame.substack.com/p/in-search-of-commons-that-scale"}
     >
-      III. Commons that Scale
+      III. WTF is MetaGame
     </TextLink>
     <TextLink
-      href={"https://metagame.substack.com/p/narrative-1-a-decentralized-factory"}
+      href={"https://metagame.substack.com/p/the-coming-of-metagame"}
     >
       IV. The Decentralized Factory
     </TextLink>
