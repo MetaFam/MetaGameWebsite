@@ -26,22 +26,22 @@ const IndexPage = () => (
   <div className="animated-links">
     <SEO title="Learn" />
     <TextLink
-      href={"https://metagame.substack.com/p/wtf-is-metagame"}
+      href={"https://metagame.substack.com/p/in-search-of-commons-that-scale"}
     >
-        I. In Search of Commons that Scale
+      I. In Search of Commons that Scale
     </TextLink>
     <TextLink
-      href={"https://metagame.substack.com/p/narrative-1-a-decentralized-factory"}   
+      href={"https://metagame.substack.com/p/the-coming-of-metagame"}
     >
       II. The Coming of MetaGame
     </TextLink>
     <TextLink
-      href={"https://metagame.substack.com/p/in-search-of-commons-that-scale"}
+      href={"https://metagame.substack.com/p/wtf-is-metagame"}
     >
       III. WTF is MetaGame
     </TextLink>
     <TextLink
-      href={"https://metagame.substack.com/p/the-coming-of-metagame"}
+      href={"https://metagame.substack.com/p/narrative-1-a-decentralized-factory"}
     >
       IV. The Decentralized Factory
     </TextLink>
@@ -51,12 +51,12 @@ const IndexPage = () => (
       V. The Web of Opportunity
     </TextLink>
     <TextLink
-      href={"https://metagame.substack.com/p/how-to-become-a-founder-of-metagame"}
+      href={"https://metagame.substack.com/p/the-way-of-web3-founding-freelancers"}
     >
       VI. The Way of Web3 Founding Freelancers
     </TextLink>
     <TextLink
-      href={"https://metagame.substack.com/p/the-way-of-web3-founding-freelancers"}
+      href={"https://metagame.substack.com/p/how-to-become-a-founder-of-metagame"}
     >
       VII. How To Become a Founder
     </TextLink>
