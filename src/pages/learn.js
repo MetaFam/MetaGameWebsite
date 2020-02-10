@@ -30,35 +30,40 @@ const IndexPage = () => (
     >
       I. In Search of Commons that Scale
     </TextLink>
+      <TextLink
+      href={"https://metagame.substack.com/p/metagame-octalysis-framework-3"}
+    >
+      II. On Gamification
+    </TextLink>
     <TextLink
       href={"https://metagame.substack.com/p/the-coming-of-metagame"}
     >
-      II. The Coming of MetaGame
+      III. The Coming of MetaGame
     </TextLink>
     <TextLink
       href={"https://metagame.substack.com/p/wtf-is-metagame"}
     >
-      III. WTF is MetaGame
+      IV. WTF is MetaGame
     </TextLink>
     <TextLink
       href={"https://metagame.substack.com/p/narrative-1-a-decentralized-factory"}
     >
-      IV. The Decentralized Factory
+      V. The Decentralized Factory
     </TextLink>
     <TextLink
       href={"https://metagame.substack.com/p/narrative-2-the-web-of-opportunity"}
     >
-      V. The Web of Opportunity
+      VI. The Web of Opportunity
     </TextLink>
     <TextLink
       href={"https://metagame.substack.com/p/the-way-of-web3-founding-freelancers"}
     >
-      VI. The Way of Web3 Founding Freelancers
+      VII. The Way of Web3 Founding Freelancers
     </TextLink>
     <TextLink
       href={"https://metagame.substack.com/p/how-to-become-a-founder-of-metagame"}
     >
-      VII. How To Become a Founder
+      VIII. How To Become a Founder
     </TextLink>
     <div
       sx={{
