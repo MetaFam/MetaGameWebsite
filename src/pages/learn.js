@@ -58,12 +58,12 @@ const IndexPage = () => (
     <TextLink
       href={"https://metagame.substack.com/p/the-way-of-web3-founding-freelancers"}
     >
-      VII. The Way of Web3 Founding Freelancers
+      VII. The Way of Web3 Founders
     </TextLink>
     <TextLink
       href={"https://metagame.substack.com/p/how-to-become-a-founder-of-metagame"}
     >
-      VIII. How To Become a Founder
+      VIII. How To Become a Founder of MetaGame
     </TextLink>
     <div
       sx={{
