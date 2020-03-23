@@ -1,26 +1,10 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx } from 'theme-ui';
 import React from 'react';
 import Button from '../components/Button';
 import SEO from '../components/seo';
-import './learn.css'
 import { Link } from 'gatsby';
-
-const TextLink = ({ children, ...props }) => (
-  <a
-    className="mg-link"
-    {...props}
-    sx={{
-      color: 'light',
-      fontSize: [1, 2],
-      mt: [3, 4],
-      letterSpacing: 0.5
-    }}
-    target="_blank"
-  >
-    {children}
-  </a>
-);
+import { TextLink } from '../components/TextLink';
 
 const IndexPage = () => (
   <div className="animated-links">

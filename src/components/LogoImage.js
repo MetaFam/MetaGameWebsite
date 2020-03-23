@@ -33,7 +33,7 @@ const LogoImage = () => {
     <Img
       fluid={data.logo.childImageSharp.fluid}
       sx={{
-        maxWidth: 600,
+        maxWidth: 500,
         width: '100%',
         mx: 'auto',
       }}

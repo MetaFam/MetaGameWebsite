@@ -46,7 +46,7 @@ const Layout = ({ children, ...props }) => {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-              px: 3
+              px: 3,
             }}
           >
             {children}

@@ -6,3 +6,8 @@
     bottom: 0;
     overflow: hidden;
 }
+
+.typed-cursor {
+    color: #FFFFFF;
+    font-size: 1.7rem;
+}
