@@ -69,13 +69,13 @@ const IndexPage = () => {
         }}
       >
         <Link to={'/learn'}>
-          <Button text="LEARN" />
+          <Button text="LEARN" color="primary" />
         </Link>
         <Button
           text="PLAY"
+          color="secondary"
           href="https://discord.gg/VYZPBnx"
           target="_blank"
-          color="secondary"
         />
       </div>
     </>
