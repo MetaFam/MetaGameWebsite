@@ -25,6 +25,7 @@ const StyledButton = ({ color = 'primary', text = '', ...props }) => {
           WebkitTapHighlightColor: 'rgba(0,0,0,0)',
           textShadow: color,
           mx: 3,
+          backdropFilter: "blur(6px)",
           ':hover': {
             color: color === 'light' ? 'dark' : 'light',
             bg: color,
