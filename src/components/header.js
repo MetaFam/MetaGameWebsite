@@ -8,7 +8,7 @@ export default ({ children, title, ...props }) => {
       <Styled.div
         as="header"
         sx={{
-          pt: [3, 5],
+          pt: [3, 4],
           pb: [3, 4]
         }}
       >
