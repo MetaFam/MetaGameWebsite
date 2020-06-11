@@ -25,7 +25,7 @@ const IndexPage = () => (
       III. The Coming of MetaGame
     </TextLink>
     <TextLink
-      href={"https://metagame.substack.com/p/wtf-is-metagame"}
+      href={"https://metagame.substack.com/p/srsly-tho-wtf-is-metagame"}
     >
       IV. WTF is MetaGame
     </TextLink>
