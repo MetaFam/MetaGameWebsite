@@ -68,7 +68,7 @@ const IndexPage = () => {
           my: 3,
         }}
       >
-        <Link to={'/learn'}>
+        <Link to={'https://wiki.metagame.wtf/'}>
           <Button text="LEARN" color="primary" />
         </Link>
         <Button
