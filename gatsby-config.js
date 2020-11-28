@@ -34,23 +34,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `IBM Plex Mono`,
-            variants: [`regular 400`]
-          },
-          {
-            family: `Aldrich`,
-            variants: [`regular 400`]
-          },
-          {
-            family: `Press Start 2P`,
-            variants: [`regular 400`]
-          },
-        ],
+        fonts: [`IBM Plex Mono\:400`, `Aldrich\:400`, `Press Start 2P\:400`],
+        display: 'swap',
       },
-    }
+    },
   ],
 };
