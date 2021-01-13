@@ -19,27 +19,29 @@ const SENTENCES = [
   'Sort of like LinkedIn, except not boring and nothing like LinkedIn',
   'This is not a coincidence',
   'Help us help you help the world',
-  'A Massive Online Coordination Game'
+  'A Massive Online Coordination Game',
+  'A Collaborative Guide For Your Journey Into Web3',
+  "Confused? We're not really sure what it is either",
+  'A Game To Change The Game',
 ];
 
 const IndexPage = () => {
   const typingRef = React.useRef(null);
-  
+
   React.useEffect(() => {
     if (!typingRef.current) return () => {};
-    
+
     const typed = new Typed(typingRef.current, {
       strings: shuffle(SENTENCES),
       typeSpeed: 30,
       loop: true,
       backDelay: 1500,
-      backSpeed: 10
+      backSpeed: 10,
     });
-    
+
     return () => typed.destroy();
-  }, [])
-  
-  
+  }, []);
+
   return (
     <>
       <SEO title="Home" />

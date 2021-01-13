@@ -28,8 +28,8 @@ export default {
   colors: {
     text: '#fff',
     background: '#110A31',
-    secondary: '#FF247C',
-    secondary25: 'rgba(255, 36, 124, 0.25)',
+    secondary: '#FF0077',
+    secondary25: 'rgba(255,0,119,0.25)',
     primary: '#0dc3cf',
     primary25: 'rgba(13, 195, 207, 0.25)',
     muted: '#eeeeee',

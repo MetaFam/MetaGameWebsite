@@ -19,7 +19,7 @@ module.exports = {
     'gatsby-plugin-theme-ui',
     'gatsby-plugin-react-helmet',
     `gatsby-transformer-sharp`,
-    'gatsby-plugin-offline',
+    'gatsby-plugin-remove-serviceworker',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
