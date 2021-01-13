@@ -33,24 +33,5 @@ module.exports = {
         component: require.resolve(`./src/components/layout`),
       },
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `IBM Plex Mono`,
-            variants: [`regular 400`]
-          },
-          {
-            family: `Aldrich`,
-            variants: [`regular 400`]
-          },
-          {
-            family: `Press Start 2P`,
-            variants: [`regular 400`]
-          },
-        ],
-      },
-    }
   ],
 };
