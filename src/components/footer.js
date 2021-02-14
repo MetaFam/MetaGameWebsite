@@ -32,7 +32,7 @@ const Footer = () => (
     </TextLink>
     <TextLink
       styleProps={{ fontSize: '0.75rem' }}
-      href="https://metafam.github.io/TheSource/timeline/@metagame/">
+      href="https://github.com/MetaFam">
       🧬 THE SOURCE
     </TextLink>
     
